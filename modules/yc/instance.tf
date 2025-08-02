@@ -80,6 +80,6 @@ resource "yandex_compute_instance" "fognet-server" {
 }
 
 output "instance_user_data" {
-  value = nonsensitive(yandex_compute_instance.fognet-server.metadata["user-data"])
+  value       = nonsensitive(yandex_compute_instance.fognet-server.metadata["user-data"])
   description = "The user-data content from instance metadata"
 }
