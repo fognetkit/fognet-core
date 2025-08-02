@@ -68,7 +68,7 @@ If you find FogNetKit useful, consider supporting its development:
 
 ## Project links
 
-FogNet project [README](https://github.com/fognetkit/fognetkit-readme)
+FogNet project [README](https://github.com/fognetkit/fognet-readme)
 
 ## Roadmap
 
