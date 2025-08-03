@@ -30,14 +30,14 @@ This Terraform module makes it easy to run computations on-demand using Ubuntu L
 
 ## 🧰 Requirements
 
-- A cloud provider account (e.g., Yandex Cloud, AWS coming soon)  
+- A cloud provider account (e.g., Yandex Cloud, AWS)  
 - A configured environment file  
 - A script that runs your computation on Ubuntu
 
 ## 🌐 Supported Providers
 
 - ✅ Yandex Cloud  
-- 🛠️ AWS (coming soon)  
+- 🛠️ AWS
 - 📋 Other providers are in the backlog
 
 ## ⚙️ Getting Started
@@ -72,7 +72,6 @@ FogNet project [README](https://github.com/fognetkit/fognet-readme)
 
 ## Roadmap
 
-- [ ] AWS support
 - [ ] Improve leverage instructions 
 - [ ] Create an example repository
 - [ ] Automatic server shutdown when idle

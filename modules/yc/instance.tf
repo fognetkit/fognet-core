@@ -78,8 +78,3 @@ resource "yandex_compute_instance" "fognet-server" {
 
   labels = merge(local.default_labels, { type = "instance" })
 }
-
-output "instance_user_data" {
-  value       = nonsensitive(yandex_compute_instance.fognet-server.metadata["user-data"])
-  description = "The user-data content from instance metadata"
-}
