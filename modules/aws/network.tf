@@ -30,10 +30,6 @@ resource "aws_route_table" "gateway_rt" {
 resource "aws_route_table_association" "gateway_rta" {
   subnet_id      = aws_subnet.gateway-subnet.id
   route_table_id = aws_route_table.gateway_rt.id
-
-    tags = merge(local.default_labels, {
-    type = "gateway_rta"
-  })
 }
 
 resource "aws_subnet" "gateway-subnet" {
